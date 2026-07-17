@@ -1,4 +1,4 @@
-// Problem Link: https://leetcode.com/problems/unique-paths/
+// Problem Link: https://leetcode.com/problems/unique-paths/description/
 
 // Solution: This problem can be solved using dynamic programming. The idea is to use a 2D array to store the number of unique paths to reach each cell in the grid. The number of unique paths to reach a cell (i, j) is the sum of the unique paths to reach the cell directly above it (i-1, j) and the cell directly to the left of it (i, j-1).
 
